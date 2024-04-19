@@ -17,7 +17,7 @@ car = {
 "year": 1964
 }
 
-x = car.values()
+x = car.items()
 
 st.write(x) #before the change
 
