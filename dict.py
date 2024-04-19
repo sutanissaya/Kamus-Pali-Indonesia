@@ -18,8 +18,9 @@ thisdict =	{
 
 thisdict2 = dict(name = "John", age = 36, country = "Norway")
 x = thisdict.get("model")
-
+y = thisdict["model"]
 st.write(x)
+st.write(y)
 
 st.write(thisdict)
 
