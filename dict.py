@@ -9,7 +9,7 @@ LOGGER = get_logger(__name__)
 
 st.set_page_config(page_title="Dictionary Test", page_icon="🌴")
 
-word_input = st.text_input(label='Search for a word:', placeholder=Type here)
+word_input = st.text_input(label='Search for a word:', placeholder='Type here')
     
 
 thisdict = [{
