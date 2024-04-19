@@ -17,6 +17,15 @@ st.divider()
 st.sidebar.write("Tampilkan kamus di [SuttaCentral](https://suttacentral.net/define/a%E1%B9%81sa?lang=id)")
 st.sidebar.write("Unduh [Kamus Pāḷi-Indonesia (JSON)](https://github.com/suttacentral/sc-data/blob/main/dictionaries/simple/id/pli2id_cped.json)")
 
+st.sidebar.divider()
+
+st.sidebar.write("Kami berusaha untuk memperbaiki dan mengembangkan situs web ini. Jika Anda memiliki saran atau ide, kami akan menerimanya dengan senang hati melalui [email](mailto:sutanissaya@gmail.com).")
+st.sidebar.write("Karya di situs web berlisensi di bawah [CC0-1.0 Universal](https://github.com/sutanissaya/palijuncturesplitter/blob/main/LICENSE). Anda dipersilahkan untuk mengembangkan, memodifikasi, memasukkan ke dalam karya lain, menggunakan kembali, dan mendistribusikan sebebas mungkin dalam bentuk apa pun dan untuk tujuan apa pun, termasuk namun tidak terbatas pada tujuan komersial.")
+
+
+
+
+
 """
 aṁsa: m.  bahu (_aṁse karoti_  meletakkan di bahu, menyandang, memanggul, memikul); bagian, hal berbagi; sudut, penjuru, ujung, tepi; **~kūṭa**m. nt. pundak, bahu.\n
 akallaka: a.  sakit, tak sehat.\n
