@@ -9,9 +9,9 @@ LOGGER = get_logger(__name__)
 
 st.set_page_config(page_title="Kamus Pāḷi-Indonesia", page_icon="🪷")
 
-st.markdown("<h1 style='text-align: center;'>Kamus Pāḷi-Indonesia 🪷</h1>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center;'><em>berdasarkan Concise Pali-English Dictionary oleh A. P. Buddhadatta (1992)</em></h3>", unsafe_allow_html=True)
-st.markdown("<h5 style='text-align: center;'><em>direvisi, diterjemahkan dan diberdayakan oleh SuttaCentral</em></h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>🪷Kamus Pāḷi-Indonesia 🪷</h1>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>berdasarkan <em>Concise Pali-English Dictionary</em> oleh A. P. Buddhadatta (1992)</h3>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center;'>terjemahan oleh SuttaCentral</h3>", unsafe_allow_html=True)
 st.divider()
 
 """
