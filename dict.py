@@ -16,3 +16,5 @@ thisdict =	{
   "year": 1964
 }
 st.write(thisdict)
+
+st.write(len(thisdict))
