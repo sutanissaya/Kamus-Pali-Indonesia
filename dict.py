@@ -26,7 +26,12 @@ for n, info in palidict.items():
     
     for key in info:
         st.write(key + ':', info[key])
+        
 
+
+# using setdefault() when key is non-existing 
+word_not_found = palidict.setdefault('Definition', "Word not in the dictionary") 
+st.write("Definition:", word_not_found) 
 
 
 
