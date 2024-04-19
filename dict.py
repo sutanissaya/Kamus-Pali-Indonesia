@@ -27,10 +27,10 @@ thisdict2 =	{
   "year": 1964
 }
 
-x = thisdict2[word_input]
+x = thisdict2["brand"]
 st.write(x)
 
-st.write(thisdict2[word_input])
+st.write(thisdict2["brand"])
 st.write(type(thisdict2))
 
 
