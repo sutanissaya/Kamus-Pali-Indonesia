@@ -18,7 +18,7 @@ thisdict = [{
     "definition": "a.  sakit, tak sehat."
 }]
 
-for x in thisdict.values():
+for x in thisdict.items():
   st.write(x)
 
 st.write(thisdict)
