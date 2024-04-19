@@ -11,7 +11,7 @@ st.set_page_config(page_title="Kamus Pāḷi-Indonesia", page_icon="🪷")
 
 st.markdown("<h1 style='text-align: center;'>🪷 Kamus Pāḷi-Indonesia 🪷</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center;'>berdasarkan <em>Concise Pali-English Dictionary</em> oleh A. P. Buddhadatta (1992)</h5>", unsafe_allow_html=True)
-st.markdown("<h5 style='text-align: center;'>terjemahan oleh SuttaCentral</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center;'>terjemahan oleh <strong>SuttaCentral</strong></h5>", unsafe_allow_html=True)
 st.divider()
 
 st.sidebar.write("Tampilkan kamus di [SuttaCentral](https://suttacentral.net/define/a%E1%B9%81sa?lang=id)")
