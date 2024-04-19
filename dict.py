@@ -17,7 +17,7 @@ car = {
 "year": 1964
 }
 
-x = car.items()
+x = word_input.items()
 
 st.write(x) #before the change
 
