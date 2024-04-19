@@ -9,50 +9,19 @@ LOGGER = get_logger(__name__)
 
 st.set_page_config(page_title="Dictionary Test", page_icon="🌴")
 
-n = st.text_input(label='Search for a word:', placeholder='Type here')
-
-palidict = { "amsa" :{
-    "definition": "m.  bahu (<i>aṁse karoti</i>  meletakkan di bahu, menyandang, memanggul, memikul); bagian, hal berbagi; sudut, penjuru, ujung, tepi; <b>~kūṭa</b> m. nt. pundak, bahu."
-  },
-  "akal" :{
-    "definition": "a.  sakit, tak sehat."
-  }}
-# st.write(palidict[word_input]["definition"])
-
-for n, info in palidict.items():
-    st.write("\nword:", n)
-    
-    for key in info:
-        st.write(key + ':', info[key])
-        
-
-
-# using setdefault() when key is non-existing 
-word_not_found = palidict.setdefault('Definition', "Word not in the dictionary") 
-st.write("Definition:", word_not_found) 
-
-
-
-
-
-#y = palidict["entry"]
-#st.write(y)
-
-#st.write(palidict["entry"])
-#st.write(type(palidict))
-
-
-# x = car.keys()
-
-# st.write(x) #before the change
-
-# car["year"] = 2020
-
-# st.write(x) #after the change 
-# st.write(car['brand'])
-
-
-
-
-# Help: st.write(type(thisdict))
-# Show number of entries: st.write(len(thisdict))
+hāraka: "a.  membawa, mengambil, memperoleh, memindahkan; m. pembawa, pengambil."
+hāriya: "a.  membawa."
+hi: "sebab, karena, sungguh (<i>tañ hi tassa  </i>ia sungguh), tentu saja, memang; lah; <b>tena hi</b> baiklah kalau begitu, karena itu."
+hita: "a.  bermanfaat; m. sahabat, penolong; nt. manfaat, kemaslahatan."
+hitesin: "mengharapkan kesejahteraan pihak lain."
+hiyyo: "adv.  kemarin."
+hirañña: "nt.  emas, emas kepingan."
+hiri (hirī): "f.  rasa malu, keseganan. (Vism 464 <i>kāyaduccaritādīhi hiriyatī ti hiri; lajjāyetaṁ adhivacanaṁ.</i>)"
+hīna: "(pp dari <b>jahati</b> ) <i>rendah</i>, nista, hina-dina, terkutuk, inferior; kekurangan. [hina ← Skt. hīna]"
+hīnāyāvatta: "m.  orang yang kembali ke kehidupan duniawi, orang yang kembali ke kehidupan rendah."
+hīyo: "☞  <b>hiyyo</b>"
+heṭṭhā: "di bawah."
+heṭṭhimā: "a. terendah, lebih rendah; (tingkat) dasariah; <b>~tala</b>  lapisan terbawah."
+hetu: "m.  “akar penyebab”, alasan, <i>sebab</i>, kondisi; demi."
+heraññika: "m.  tukang emas, pakar emas, pandai emas, penukar mata uang; <b>~phalaka</b> m. nt. bilah/papan/meja sang penukar mata uang."
+hemanta: "m.  musim dingin."
