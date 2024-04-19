@@ -19,7 +19,7 @@ car = {
 
 x = car.keys()
 
-st.write((x) #before the change
+st.write(x) #before the change
 
 car["color"] = "white"
 
