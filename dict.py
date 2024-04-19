@@ -17,10 +17,21 @@ thisdict =	{
 }
 
 thisdict2 = dict(name = "John", age = 36, country = "Norway")
-x = thisdict.get("model")
-y = thisdict["model"]
-st.write(x)
-st.write(y)
+
+
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.keys()
+
+st.write(x) #before the change
+
+car["color"] = "white"
+
+st.write(x) #after the change 
 
 st.write(thisdict)
 
