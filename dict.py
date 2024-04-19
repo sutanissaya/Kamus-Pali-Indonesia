@@ -11,14 +11,10 @@ st.set_page_config(page_title="Dictionary Test", page_icon="🌴")
 
 word_input = st.text_input(label='Search for a word:', placeholder='Type here')
 
-palidict = [{
+palidict = {
     "entry": "aṁsa",
     "definition": "m.  bahu (<i>aṁse karoti</i>  meletakkan di bahu, menyandang, memanggul, memikul); bagian, hal berbagi; sudut, penjuru, ujung, tepi; <b>~kūṭa</b> m. nt. pundak, bahu."
-  },
-  {
-    "entry": "akallaka",
-    "definition": "a.  sakit, tak sehat."
-  }]
+  }
 
 
 y = palidict["entry"]
