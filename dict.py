@@ -9,7 +9,7 @@ LOGGER = get_logger(__name__)
 
 st.set_page_config(page_title="Dictionary Test", page_icon="🌴")
 
-# word_input = st.text_input(label='Search for a word:', placeholder='Type here')
+word_input = st.text_input(label='Search for a word:', placeholder='Type here')
     
 car = {
 "brand": "Ford",
@@ -17,7 +17,7 @@ car = {
 "year": 1964
 }
 
-x = st.text_input.keys(label='Search for a word:', placeholder='Type here')
+x = car.keys()
 
 st.write(x) #before the change
 
