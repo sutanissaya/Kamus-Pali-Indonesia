@@ -10,30 +10,19 @@ LOGGER = get_logger(__name__)
 st.set_page_config(page_title="Dictionary Test", page_icon="🌴")
 
 
-thisdict =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
+thisdict =	
+  {
+    "entry": "amsa",
+    "definition": "m.  bahu (<i>aṁse karoti</i>  meletakkan di bahu, menyandang, memanggul, memikul); bagian, hal berbagi; sudut, penjuru, ujung, tepi; <b>~kūṭa</b> m. nt. pundak, bahu."
+  },
+  {
+    "entry": "akal",
+    "definition": "a.  sakit, tak sehat."
+  }
 
-thisdict2 = dict(name = "John", age = 36, country = "Norway")
-
-
-#
-thisdict =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-if "model" in thisdict:
-  st.write("Yes, 'model' is one of the keys in the thisdict dictionary") 
-
-
-
-#
 
 st.write(thisdict)
 
-st.write(thisdict2)
+
 # Help: st.write(type(thisdict))
 # Show number of entries: st.write(len(thisdict))
