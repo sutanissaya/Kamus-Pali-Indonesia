@@ -21,10 +21,10 @@ palidict = [{
   }]
 
 
-y = palidict["brand"]
+y = palidict["entry"]
 st.write(y)
 
-st.write(palidict["brand"])
+st.write(palidict["entry"])
 st.write(type(palidict))
 
 
