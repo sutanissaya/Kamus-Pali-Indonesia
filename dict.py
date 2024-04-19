@@ -17,11 +17,11 @@ car = {
 "year": 1964
 }
 
-x = car.keys()
+x = car.values()
 
 st.write(x) #before the change
 
-car["color"] = "white"
+car["year"] = 2020
 
 st.write(x) #after the change 
 
