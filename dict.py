@@ -44,17 +44,6 @@ st.write("Definition:", word_not_found)
 #st.write(type(palidict))
 
 
-car = [{
-"brand": "Ford",
-"model": "Mustang",
-"year": 1964
-},
-{
-"brand": "merci",
-"model": "yoi",
-"year": 1900
-}]
-
 # x = car.keys()
 
 # st.write(x) #before the change
@@ -65,29 +54,6 @@ car = [{
 # st.write(car['brand'])
 
 
-thisdict = {
-    "entry": "amsa",
-    "definition": "m.  bahu (<i>aṁse karoti</i>  meletakkan di bahu, menyandang, memanggul, memikul); bagian, hal berbagi; sudut, penjuru, ujung, tepi; <b>~kūṭa</b> m. nt. pundak, bahu."
-}
-
-
-for x in thisdict:
-  st.write(x)
-
-thisdict2 =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-
-x = thisdict2["brand"]
-st.write(x)
-
-st.write(thisdict2["brand"])
-st.write(type(thisdict2))
-
-
-st.write(thisdict)
 
 
 # Help: st.write(type(thisdict))
