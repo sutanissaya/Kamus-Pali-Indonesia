@@ -14,6 +14,7 @@ st.markdown("<h4 style='text-align: center;'>berdasarkan <em>Concise Pali-Englis
 st.markdown("<h5 style='text-align: center;'>terjemahan oleh SuttaCentral</h3>", unsafe_allow_html=True)
 st.divider()
 
+st.sidebar.write("Tampilkan kamus di [SuttaCentral](https://suttacentral.net/define/a%E1%B9%81sa?lang=id)")
 st.sidebar.write("Unduh [Kamus Pāḷi-Indonesia (JSON)](https://github.com/suttacentral/sc-data/blob/main/dictionaries/simple/id/pli2id_cped.json)")
 
 """
