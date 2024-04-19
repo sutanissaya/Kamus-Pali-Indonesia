@@ -14,7 +14,7 @@ st.markdown("<h4 style='text-align: center;'>berdasarkan <em>Concise Pali-Englis
 st.markdown("<h5 style='text-align: center;'>terjemahan oleh SuttaCentral</h3>", unsafe_allow_html=True)
 st.divider()
 
-st.sidebar.write("Unduh <a href="https://github.com/suttacentral/sc-data/blob/main/dictionaries/simple/id/pli2id_cped.json">Kamus Pāḷi-Indonesia (JSON)</a>")
+st.sidebar.write("Unduh [Kamus Pāḷi-Indonesia (JSON)](https://github.com/suttacentral/sc-data/blob/main/dictionaries/simple/id/pli2id_cped.json)")
 
 """
 aṁsa: m.  bahu (_aṁse karoti_  meletakkan di bahu, menyandang, memanggul, memikul); bagian, hal berbagi; sudut, penjuru, ujung, tepi; **~kūṭa**m. nt. pundak, bahu.\n
