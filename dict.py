@@ -18,6 +18,9 @@ thisdict =	{
 
 thisdict2 = dict(name = "John", age = 36, country = "Norway")
 x = thisdict.get("model")
+
+st.write(x)
+
 st.write(thisdict)
 
 st.write(thisdict2)
