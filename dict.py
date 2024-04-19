@@ -15,6 +15,11 @@ thisdict =	{
   "model": "Mustang",
   "year": 1964
 }
+
+thisdict2 = dict(name = "John", age = 36, country = "Norway")
+
 st.write(thisdict)
-st.write(type(thisdict))
-st.write(len(thisdict))
+
+st.write(thisdict2)
+# Help: st.write(type(thisdict))
+# Show number of entries: st.write(len(thisdict))
