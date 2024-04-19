@@ -20,19 +20,14 @@ thisdict2 = dict(name = "John", age = 36, country = "Norway")
 
 
 #
-car = {
-"brand": "Ford",
-"model": "Mustang",
-"year": 1964
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
 }
+if "model" in thisdict:
+  st.write("Yes, 'model' is one of the keys in the thisdict dictionary") 
 
-x = car.items()
-
-st.write(x) #before the change
-
-car["year"] = 2020
-
-st.write(x) #after the change 
 
 
 #
