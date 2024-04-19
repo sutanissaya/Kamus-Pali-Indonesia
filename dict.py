@@ -22,13 +22,13 @@ car = [{
 "year": 1900
 }]
 
-x = car.keys()
+# x = car.keys()
 
-st.write(x) #before the change
+# st.write(x) #before the change
 
-car["year"] = 2020
+# car["year"] = 2020
 
-st.write(x) #after the change 
+# st.write(x) #after the change 
 st.write(car['brand'])
 
 
