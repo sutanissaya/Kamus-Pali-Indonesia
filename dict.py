@@ -21,6 +21,13 @@ thisdict = {
 for x in thisdict:
   st.write(x)
 
+thisdict2 =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+st.write(thisdict["brand"])
+
 st.write(thisdict)
 
 
