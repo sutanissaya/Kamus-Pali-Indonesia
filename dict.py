@@ -20,7 +20,6 @@ thisdict2 = dict(name = "John", age = 36, country = "Norway")
 
 
 #
-
 car = {
 "brand": "Ford",
 "model": "Mustang",
@@ -29,9 +28,11 @@ car = {
 
 x = car.values()
 
+
 st.write(x) #before the change
 
-car["year"] = 2020
+car["color"] = "red"
+
 
 st.write(x) #after the change 
 
