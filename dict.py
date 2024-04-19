@@ -19,7 +19,7 @@ palidict = { "amsa" :{
     "entry": "akal",
     "definition": "a.  sakit, tak sehat."
   }}
-st.write(palidict[word_input]["definition"])
+# st.write(palidict[word_input]["definition"])
 
 for n, info in palidict.items():
     print("\nword:", n)
