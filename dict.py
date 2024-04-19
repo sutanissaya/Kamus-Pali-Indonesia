@@ -27,6 +27,7 @@ thisdict2 =	{
   "year": 1964
 }
 st.write(thisdict2["brand"])
+st.write(type(thisdict2))
 
 st.write(thisdict)
 
