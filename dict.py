@@ -23,7 +23,7 @@ st.write((x) #before the change
 
 car["color"] = "white"
 
-st.write((x) #after the change 
+st.write(x) #after the change 
 
 
 
