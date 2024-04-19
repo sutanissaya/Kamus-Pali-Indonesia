@@ -22,7 +22,7 @@ palidict = { "amsa" :{
 # st.write(palidict[word_input]["definition"])
 
 for n, info in palidict.items():
-    print("\nword:", n)
+    st.write("\nword:", n)
     
     for key in info:
         st.write(key + ':', info[key])
