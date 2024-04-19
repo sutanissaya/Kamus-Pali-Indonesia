@@ -8,7 +8,7 @@ import pandas as pd
 LOGGER = get_logger(__name__)
 
 st.set_page_config(page_title="Dictionary Test", page_icon="🌴")
-
+"""
 hāraka: "a.  membawa, mengambil, memperoleh, memindahkan; m. pembawa, pengambil."
 hāriya: "a.  membawa."
 hi: "sebab, karena, sungguh (<i>tañ hi tassa  </i>ia sungguh), tentu saja, memang; lah; <b>tena hi</b> baiklah kalau begitu, karena itu."
@@ -25,3 +25,4 @@ heṭṭhimā: "a. terendah, lebih rendah; (tingkat) dasariah; <b>~tala</b>  lap
 hetu: "m.  “akar penyebab”, alasan, <i>sebab</i>, kondisi; demi."
 heraññika: "m.  tukang emas, pakar emas, pandai emas, penukar mata uang; <b>~phalaka</b> m. nt. bilah/papan/meja sang penukar mata uang."
 hemanta: "m.  musim dingin."
+"""
