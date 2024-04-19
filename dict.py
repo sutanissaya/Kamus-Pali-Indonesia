@@ -17,7 +17,7 @@ thisdict = {
     "definition": "m.  bahu (<i>aṁse karoti</i>  meletakkan di bahu, menyandang, memanggul, memikul); bagian, hal berbagi; sudut, penjuru, ujung, tepi; <b>~kūṭa</b> m. nt. pundak, bahu."
 }
 
-
+x = thisdict
 
 for x in thisdict:
   st.write(x)
