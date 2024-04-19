@@ -11,6 +11,21 @@ st.set_page_config(page_title="Dictionary Test", page_icon="🌴")
 
 word_input = st.text_input(label='Search for a word:', placeholder='Type here')
     
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.keys()
+
+st.write((x) #before the change
+
+car["color"] = "white"
+
+st.write((x) #after the change 
+
+
 
 thisdict = {
     "entry": "amsa",
