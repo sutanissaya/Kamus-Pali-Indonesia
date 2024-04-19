@@ -29,11 +29,11 @@ car = {
 
 x = car.values()
 
-print(x) #before the change
+st.write(x) #before the change
 
 car["year"] = 2020
 
-print(x) #after the change 
+st.write(x) #after the change 
 
 
 #
