@@ -8,7 +8,7 @@ import pandas as pd
 LOGGER = get_logger(__name__)
 
 st.set_page_config(page_title="Dictionary Test", page_icon="🌴")
-"""
+st.markdown(
 
 setu: "m.  jembatan; jalan lintasan yang ditinggikan melewati rawa-rawa dsb; <b>~ghāta</b> a.  meruntuhkan jembatan (yang menghubungkan suatu tempat)."\n
 sedeti: "(kaus. dari <b>sijjhati</b> )  membuat berpeluh, menghangatkan, menguapi."\n
@@ -75,4 +75,4 @@ heṭṭhimā: "a. terendah, lebih rendah; (tingkat) dasariah; <b>~tala</b>  lap
 hetu: "m.  “akar penyebab”, alasan, <i>sebab</i>, kondisi; demi."\n
 heraññika: "m.  tukang emas, pakar emas, pandai emas, penukar mata uang; <b>~phalaka</b> m. nt. bilah/papan/meja sang penukar mata uang."\n
 hemanta: "m.  musim dingin."\n
-"""
+)
