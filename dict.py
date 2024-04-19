@@ -11,11 +11,16 @@ st.set_page_config(page_title="Dictionary Test", page_icon="🌴")
 
 word_input = st.text_input(label='Search for a word:', placeholder='Type here')
     
-car = {
+car = [{
 "brand": "Ford",
 "model": "Mustang",
 "year": 1964
-}
+},
+{
+"brand": "merci",
+"model": "yoi",
+"year": 1900
+}]
 
 x = car.keys()
 
