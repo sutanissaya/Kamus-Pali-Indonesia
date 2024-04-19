@@ -29,7 +29,7 @@ car = [{
 # car["year"] = 2020
 
 # st.write(x) #after the change 
-st.write(car['brand'])
+# st.write(car['brand'])
 
 
 thisdict = {
