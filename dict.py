@@ -20,10 +20,12 @@ thisdict = [{
     "definition": "a.  sakit, tak sehat."
 }]
 
+x = thisdict["entry"]
+
 for x in thisdict:
   st.write(x)
 
-st.write(thisdict)
+# st.write(thisdict)
 
 
 # Help: st.write(type(thisdict))
