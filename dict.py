@@ -20,7 +20,7 @@ st.sidebar.write("Unduh [Kamus Pāḷi-Indonesia (JSON)](https://github.com/sutt
 st.sidebar.divider()
 
 st.sidebar.write("Kami berusaha untuk memperbaiki dan mengembangkan situs web ini. Jika Anda memiliki saran atau ide, kami akan menerimanya dengan senang hati melalui [email](mailto:sutanissaya@gmail.com).")
-st.sidebar.write("Karya di situs web berlisensi di bawah [CC0-1.0 Universal](https://github.com/sutanissaya/palijuncturesplitter/blob/main/LICENSE). Anda dipersilahkan untuk mengembangkan, memodifikasi, memasukkan ke dalam karya lain, menggunakan kembali, dan mendistribusikan sebebas mungkin dalam bentuk apa pun dan untuk tujuan apa pun, termasuk namun tidak terbatas pada tujuan komersial.")
+st.sidebar.write("_Karya di situs web berlisensi di bawah [CC0-1.0 Universal](https://github.com/sutanissaya/palijuncturesplitter/blob/main/LICENSE). Anda dipersilahkan untuk mengembangkan, memodifikasi, memasukkan ke dalam karya lain, menggunakan kembali, dan mendistribusikan sebebas mungkin dalam bentuk apa pun dan untuk tujuan apa pun, termasuk namun tidak terbatas pada tujuan komersial._")
 
 
 
